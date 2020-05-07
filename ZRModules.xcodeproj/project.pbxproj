@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E52990824640CA60016FEA8 /* shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3E52990724640CA60016FEA8 /* shader.metal */; };
 		3EBB8BED244D83E000AB11D6 /* ZRModules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBB8BE3244D83E000AB11D6 /* ZRModules.framework */; };
 		3EBB8BF2244D83E000AB11D6 /* ZRModulesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8BF1244D83E000AB11D6 /* ZRModulesTests.m */; };
 		3EBB8BF4244D83E000AB11D6 /* ZRModules.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8BE6244D83E000AB11D6 /* ZRModules.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBB8C03244D84C700AB11D6 /* ZRMovieReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C01244D84C700AB11D6 /* ZRMovieReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBB8C04244D84C700AB11D6 /* ZRMovieReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C02244D84C700AB11D6 /* ZRMovieReader.m */; };
+		3EBB8C07244D8EC100AB11D6 /* ZRMovieWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C05244D8EC100AB11D6 /* ZRMovieWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBB8C08244D8EC100AB11D6 /* ZRMovieWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C06244D8EC100AB11D6 /* ZRMovieWriter.m */; };
+		3EBB8C0B244DA28500AB11D6 /* ZRCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB8C09244DA28500AB11D6 /* ZRCameraController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBB8C0C244DA28500AB11D6 /* ZRCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB8C0A244DA28500AB11D6 /* ZRCameraController.m */; };
+		3EDEDDA124585E0900D5DBC3 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDEDDA024585E0900D5DBC3 /* MetalKit.framework */; };
+		3EDEDDA424585E6200D5DBC3 /* ZRRenderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDEDDA224585E6200D5DBC3 /* ZRRenderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EDEDDA524585E6200D5DBC3 /* ZRRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEDDA324585E6200D5DBC3 /* ZRRenderView.m */; };
+		3EDEDEBF2462ED4B00D5DBC3 /* ZRProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDEDEBD2462ED4B00D5DBC3 /* ZRProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EDEDEC02462ED4B00D5DBC3 /* ZRProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDEDEBE2462ED4B00D5DBC3 /* ZRProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +35,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E52990724640CA60016FEA8 /* shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shader.metal; sourceTree = "<group>"; };
+		3E52990924640CD60016FEA8 /* ShaderType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderType.h; sourceTree = "<group>"; };
 		3EBB8BE3244D83E000AB11D6 /* ZRModules.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZRModules.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBB8BE6244D83E000AB11D6 /* ZRModules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRModules.h; sourceTree = "<group>"; };
 		3EBB8BE7244D83E000AB11D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EBB8BEC244D83E000AB11D6 /* ZRModulesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRModulesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBB8BF1244D83E000AB11D6 /* ZRModulesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRModulesTests.m; sourceTree = "<group>"; };
 		3EBB8BF3244D83E000AB11D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EBB8C01244D84C700AB11D6 /* ZRMovieReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRMovieReader.h; sourceTree = "<group>"; };
+		3EBB8C02244D84C700AB11D6 /* ZRMovieReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRMovieReader.m; sourceTree = "<group>"; };
+		3EBB8C05244D8EC100AB11D6 /* ZRMovieWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRMovieWriter.h; sourceTree = "<group>"; };
+		3EBB8C06244D8EC100AB11D6 /* ZRMovieWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRMovieWriter.m; sourceTree = "<group>"; };
+		3EBB8C09244DA28500AB11D6 /* ZRCameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRCameraController.h; sourceTree = "<group>"; };
+		3EBB8C0A244DA28500AB11D6 /* ZRCameraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRCameraController.m; sourceTree = "<group>"; };
+		3EDEDDA024585E0900D5DBC3 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
+		3EDEDDA224585E6200D5DBC3 /* ZRRenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRRenderView.h; sourceTree = "<group>"; };
+		3EDEDDA324585E6200D5DBC3 /* ZRRenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRRenderView.m; sourceTree = "<group>"; };
+		3EDEDEBD2462ED4B00D5DBC3 /* ZRProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRProxy.h; sourceTree = "<group>"; };
+		3EDEDEBE2462ED4B00D5DBC3 /* ZRProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDEDDA124585E0900D5DBC3 /* MetalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E52990624640C880016FEA8 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				3E52990724640CA60016FEA8 /* shader.metal */,
+				3E52990924640CD60016FEA8 /* ShaderType.h */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
 		3EBB8BD9244D83DF00AB11D6 = {
 			isa = PBXGroup;
 			children = (
 				3EBB8BE5244D83E000AB11D6 /* ZRModules */,
 				3EBB8BF0244D83E000AB11D6 /* ZRModulesTests */,
 				3EBB8BE4244D83E000AB11D6 /* Products */,
+				3EDEDD9F24585E0800D5DBC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +109,11 @@
 			children = (
 				3EBB8BE6244D83E000AB11D6 /* ZRModules.h */,
 				3EBB8BE7244D83E000AB11D6 /* Info.plist */,
+				3EDEDEBC2462ED3800D5DBC3 /* ZRUtils */,
+				3EBB8BFD244D843E00AB11D6 /* ZRMovieReader */,
+				3EBB8C00244D847800AB11D6 /* ZRMovieWriter */,
+				3EBB8BFF244D847300AB11D6 /* ZRCamera */,
+				3EBB8BFE244D846800AB11D6 /* ZRRender */,
 			);
 			path = ZRModules;
 			sourceTree = "<group>";
@@ -86,6 +127,60 @@
 			path = ZRModulesTests;
 			sourceTree = "<group>";
 		};
+		3EBB8BFD244D843E00AB11D6 /* ZRMovieReader */ = {
+			isa = PBXGroup;
+			children = (
+				3EBB8C01244D84C700AB11D6 /* ZRMovieReader.h */,
+				3EBB8C02244D84C700AB11D6 /* ZRMovieReader.m */,
+			);
+			path = ZRMovieReader;
+			sourceTree = "<group>";
+		};
+		3EBB8BFE244D846800AB11D6 /* ZRRender */ = {
+			isa = PBXGroup;
+			children = (
+				3E52990624640C880016FEA8 /* Shader */,
+				3EDEDDA224585E6200D5DBC3 /* ZRRenderView.h */,
+				3EDEDDA324585E6200D5DBC3 /* ZRRenderView.m */,
+			);
+			path = ZRRender;
+			sourceTree = "<group>";
+		};
+		3EBB8BFF244D847300AB11D6 /* ZRCamera */ = {
+			isa = PBXGroup;
+			children = (
+				3EBB8C09244DA28500AB11D6 /* ZRCameraController.h */,
+				3EBB8C0A244DA28500AB11D6 /* ZRCameraController.m */,
+			);
+			path = ZRCamera;
+			sourceTree = "<group>";
+		};
+		3EBB8C00244D847800AB11D6 /* ZRMovieWriter */ = {
+			isa = PBXGroup;
+			children = (
+				3EBB8C05244D8EC100AB11D6 /* ZRMovieWriter.h */,
+				3EBB8C06244D8EC100AB11D6 /* ZRMovieWriter.m */,
+			);
+			path = ZRMovieWriter;
+			sourceTree = "<group>";
+		};
+		3EDEDD9F24585E0800D5DBC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EDEDDA024585E0900D5DBC3 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EDEDEBC2462ED3800D5DBC3 /* ZRUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3EDEDEBD2462ED4B00D5DBC3 /* ZRProxy.h */,
+				3EDEDEBE2462ED4B00D5DBC3 /* ZRProxy.m */,
+			);
+			path = ZRUtils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +188,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EBB8C07244D8EC100AB11D6 /* ZRMovieWriter.h in Headers */,
+				3EBB8C03244D84C700AB11D6 /* ZRMovieReader.h in Headers */,
+				3EDEDDA424585E6200D5DBC3 /* ZRRenderView.h in Headers */,
 				3EBB8BF4244D83E000AB11D6 /* ZRModules.h in Headers */,
+				3EDEDEBF2462ED4B00D5DBC3 /* ZRProxy.h in Headers */,
+				3EBB8C0B244DA28500AB11D6 /* ZRCameraController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDEDDA524585E6200D5DBC3 /* ZRRenderView.m in Sources */,
+				3EDEDEC02462ED4B00D5DBC3 /* ZRProxy.m in Sources */,
+				3E52990824640CA60016FEA8 /* shader.metal in Sources */,
+				3EBB8C04244D84C700AB11D6 /* ZRMovieReader.m in Sources */,
+				3EBB8C08244D8EC100AB11D6 /* ZRMovieWriter.m in Sources */,
+				3EBB8C0C244DA28500AB11D6 /* ZRCameraController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,13 +441,17 @@
 		3EBB8BF8244D83E000AB11D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5S4QSMZLCU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = ZRModules/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,20 +460,24 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zr.ZRModules;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3EBB8BF9244D83E000AB11D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5S4QSMZLCU;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = ZRModules/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zr.ZRModules;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

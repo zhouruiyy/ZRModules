@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZRMovieReader.h"
+#import "ZRMovieWriter.h"
+#import "ZRCameraController.h"
+#import "ZRRenderView.h"
 
 //! Project version number for ZRModules.
 FOUNDATION_EXPORT double ZRModulesVersionNumber;
